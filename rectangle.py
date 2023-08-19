@@ -60,6 +60,18 @@ async def run():
                                      float('nan'),
                                      float('nan'),
                                      float('nan')))
+    mission_items.append(MissionItem(39.87392251782484, 32.72886574398258
+                                 25,
+                                 10,
+                                 True,
+                                 float('nan'),
+                                 float('nan'),
+                                 MissionItem.CameraAction.NONE,
+                                 float('nan'),
+                                 float('nan'),
+                                 float('nan'),
+                                 float('nan'),
+                                 float('nan')))
 
     mission_plan = MissionPlan(mission_items)
 
